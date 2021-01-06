@@ -7,5 +7,8 @@ setup(
     install_requires=[
         'ipsframework==0.2.0'
     ],
-    packages=find_packages()
+    packages=find_packages(),
+    scripts=['scripts/integrator.py',
+             'scripts/X_dot_code.py',
+             'scripts/Y_dot_code.py']
 )

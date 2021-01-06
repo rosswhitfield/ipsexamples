@@ -3,7 +3,7 @@
 ## Install IPS
 
 ```
-pip install git+https://github.com/HPC-SimTools/IPS-framework.git
+python -m pip install git+https://github.com/HPC-SimTools/IPS-framework.git@v0.2.0
 ```
 
 or follow [Installing IPS guide](https://ips-framework.readthedocs.io/en/latest/getting_started/getting_started.html#installing-ips)
@@ -26,4 +26,10 @@ python3 setup.py develop
 
 ```
 ips.py --config=configs/hello.config --platform=configs/platform.conf
+```
+
+### Hello world
+
+```
+ips.py --config=configs/abc.config --platform=configs/platform.conf
 ```
