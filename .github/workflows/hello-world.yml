@@ -17,8 +17,6 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Install latest IPS
-      run: python -m pip install git+https://github.com/HPC-SimTools/IPS-framework.git@v0.2.0
     - name: Install ipsexamples
       run: python setup.py install
     - name: Run hello work example
