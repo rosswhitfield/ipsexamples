@@ -7,8 +7,18 @@ converted into a installable package. This is also an example of using
 
 ## Install IPS
 
+The ipsframework should be automatically installed from pypi when install ipsexamples
+
+You can manually install it from pypi
+
 ```
-python -m pip install git+https://github.com/HPC-SimTools/IPS-framework.git@v0.2.0
+python -m pip install ipsframework==0.2.1
+```
+
+or to install it from github
+
+```
+python -m pip install git+https://github.com/HPC-SimTools/IPS-framework.git@v0.2.1
 ```
 
 or follow [Installing IPS guide](https://ips-framework.readthedocs.io/en/latest/getting_started/getting_started.html#installing-ips)
